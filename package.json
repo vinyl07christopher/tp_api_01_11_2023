@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "docxtemplater": "^3.37.12",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "google-it": "^1.6.4",
+    "jsonwebtoken": "^9.0.1",
+    "mammoth": "^1.6.0",
+    "mongoose": "^7.3.4",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^2.0.22",
+    "otp-generator": "^4.0.1",
+    "pdf-lib": "^1.17.1",
+    "replace-special-characters": "^1.2.7",
+    "tesseract.js": "^4.1.1",
+    "textract": "^2.5.0",
+    "twilio": "^4.14.0",
+    "word-extractor": "^1.0.4",
+    "wordcount.js": "^1.0.1"
+  },
+  "description": ""
+}
